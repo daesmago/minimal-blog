@@ -1,0 +1,31 @@
+const articles = [{
+    name: 'learn-react',
+    title: '¿Qué es React y por qué aprenderlo?',
+    content: [`React es una librería Javascript focalizada en el desarrollo de interfaces de usuario. Así se define la propia librería y evidentemente, esa es su principal área de trabajo. Sin embargo, lo cierto es que en React encontramos un excelente aliado para hacer todo tipo de aplicaciones web, SPA (Single Page Application) o incluso aplicaciones para móviles. Para ello, alrededor de React existe un completo ecosistema de módulos, herramientas y componentes capaces de ayudar al desarrollador a cubrir objetivos avanzados con relativamente poco esfuerzo.
+    Por tanto, React representa una base sólida sobre la cual se puede construir casi cualquier cosa con Javascript. Además facilita mucho el desarrollo, ya que nos ofrece muchas cosas ya listas, en las que no necesitamos invertir tiempo de trabajo. En este artículo te ampliaremos esta información, aportando además diversos motivos por los que usar React como librería del lado del cliente.`, `React es una librería completa, adecuada en muchos tipos de proyectos distintos. Nos permite un desarrollo ágil, ordenado y con una arquitectura mantenible, focalizada en componentes y que nos ofrece un gran performance.
+    Aunque React no se encarga de todas las partes necesarias para hacer una aplicación web compleja, la serie de componentes y herramientas diversas que encontramos dentro del ecosistema React, nos permite beneficiarnos de alternativas capaces de desarrollar cualquier cosa que podríamos hacer con un complejo framework.`,]
+}, {
+    name: 'learn-node',
+    title: '¿Comó implementar un servidor con Node.js?',
+    content: [`Node (o más correctamente: Node.js) es un entorno que trabaja en tiempo de ejecución, de código abierto, multi-plataforma, que permite a los desarrolladores crear toda clase de herramientas de lado servidor y aplicaciones en JavaScript. La ejecución en tiempo real está pensada para usarse fuera del contexto de un explorador web (es decir, ejecutarse directamente en una computadora o sistema operativo de servidor). Como tal, el entorno omite las APIs de JavaScript específicas del explorador web y añade soporte para APIs de sistema operativo más tradicionales que incluyen HTTP y bibliotecas de sistemas de ficheros.
+
+Desde una perspectiva de desarrollo de servidor web, Node tiene un gran número de ventajas:`,
+`- ¡Gran rendimiento! Node ha sido diseñado para optimizar el rendimiento y la escalabilidad en aplicaciones web y es un muy buen complemento para muchos problemas comunes de desarrollo web (ej, aplicaciones web en tiempo real).`,
+`- El código está escrito en "simple JavaScript", lo que significa que se pierde menos tiempo ocupándose de las "conmutaciones de contexto" entre lenguajes cuando estás escribiendo tanto el código del explorador web como del servidor.`,
+`- JavaScript es un lenguaje de programación relativamente nuevo y se beneficia de los avances en diseño de lenguajes cuando se compara con otros lenguajes de servidor web tradicionales (ej, Python, PHP, etc.) Muchos otros lenguajes nuevos y populares se compilan/convierten a JavaScript de manera que puedes también usar CoffeeScript, ClosureScript, Scala, LiveScript, etc.`,
+`- El gestor de paquetes de Node (NPM del inglés: Node Packet Manager) proporciona acceso a cientos o miles de paquetes reutilizables. Tiene además la mejor en su clase resolución de dependencias y puede usarse para automatizar la mayor parte de la cadena de herramientas de compilación.`,
+`- Es portable, con versiones que funcionan en Microsoft Windows, OS X, Linux, Solaris, FreeBSD, OpenBSD, WebOS, y NonStop OS. Además, está bien soportado por muchos de los proveedores de hospedaje web, que proporcionan infraestructura específica y documentación para hospedaje de sitios Node. `,
+`- Tiene un ecosistema y comunidad de desarrolladores de terceros muy activa, con cantidad de gente deseosa de ayudar.`,]
+}, {
+    name: 'my-thoughts-on-resumes',
+    title: 'Consejos para construir el CV perfecto',
+    content: [`Construir una buena hoja de vida o Curriculum vitae es uno de los mayores retos que nos encontramos a la hora de buscar un empleo. Existen diversas ideas sobre cuál es la estructura, estilo y forma más adecuada de crearlo. Sin embargo, en muchas ocasiones son tantos los puntos de vista existentes que resulta difícil decidirse por alguno y terminamos con más confusión que antes.
+    Por lo antes mencionado y con la finalidad de compartirte más herramientas en tu búsqueda de empleo, hemos creado la siguiente lista de consejos que seguro te ayudaran en el proceso.`,
+    `Al crear una hoja de vida debes de mantener en mente que alguien la leerá, por lo que debes de estructurar la información de tal manera que la lectura sea sencilla y llame la atención en aquellos puntos donde buscas sobresalir. No te preocupes si no tienes experiencia en diseño o haciendo currículos previamente. Ya existen en el mercado numerosos “CV builders” como VisualCV o Canva, plataformas con plantillas gratuitas que te ayudarán a organizar la información rápidamente.`,
+    `Muchos reclutadores suelen recibir cientos o miles de currículos diariamente, por lo que suelen dedicar poco tiempo para leer cada uno de ellos detenidamente.
+    En la práctica, para un reclutador es más sencillo hacer una lectura rápida en búsqueda de información relevante antes de prestar más atención a una hoja de vida en particular, por lo que resulta clave que al escribirlo agregues aquellas palabras que hacen “match” con la posición a la que aplicas.`,
+    `Finalmente, recuerda que tu CV es un documento dinámico y con cambios constantes, que además de mostrar tu experiencia profesional y conocimientos, también muestra tu personalidad. Mientras más veces lo revises y lo ajustes, más único se volverá y eso te permitirá mantener tu perfil actualizado y te dará la oportunidad de encontrar ofertas laborales más competitivas.`,
+    ]
+},];
+
+export default articles;
